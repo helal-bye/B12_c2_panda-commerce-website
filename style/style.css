@@ -130,6 +130,8 @@ height: 378px;
 }
 .shoes-section-wapper{
     background: rgb(244, 244, 244);
+    margin-top: 50px;
+    padding-bottom: 100px;
 }
 .shoes-section-container{
     padding: 50px 0px;
@@ -171,7 +173,7 @@ height: 378px;
     font-size: 24px;
     color: #1F1F1F;
     margin-bottom: 20px;
-    max-width: 300px;
+    /* max-width: 300px; */
     text-align: center;
 }
 .shoes-description{
@@ -188,5 +190,63 @@ height: 378px;
 
 }
 .price-and-btn .btn-primary{
+    background: black;
+}
+.backpack-and-See-all-btn{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0px;
+}
+.backpack-and-See-all-btn h3{
+    font-size: 36px;
+    font-weight: 600;
+    color:#1F1F1F;
+}
+.backpack-and-See-all-btn p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF9D00;
+}
+.backpack-card-container{
+    display: flex;
+    gap: 24px;
+    width: 100%;
+
+}
+.backpack-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backpack-card{
+    padding: 25px 35px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    flex: 1;
+}
+.backpack-img-container img{
+    max-width: 300px;
+
+}
+.backpack-text{
+    text-align: center;
+}
+.backpack-title{
+    font-weight: 600;
+    font-size: 24px;
+    color: #1F1F1F;
+    margin-bottom: 20px;
+}
+.backpack-description{
+    max-width: 300;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4E4E4E;
+    margin-bottom: 20px;
+}
+.backpack-text .price-title{
+    color: black;
+}
+.backpack-text .btn-primary{
     background: black;
 }
