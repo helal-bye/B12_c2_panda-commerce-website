@@ -292,3 +292,6 @@ height: 378px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+.input-search button{
+    padding: 15px 80px;
+}
