@@ -250,3 +250,45 @@ height: 378px;
 .backpack-text .btn-primary{
     background: black;
 }
+.get-in-touch-section{
+    background: #ffffff;
+}
+.get-in-touch-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 110px;
+}
+.get-in-touch-wapper{
+    padding: 150px 265px;
+    background: #FFF2F1;
+    border-radius: 15px;
+}
+.get-in-touch-wapper h2{
+    font-weight: 600;
+    font-size: 30px;
+    color: #1F1F1F;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.get-in-touch-wapper p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #707070;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.input-search{
+    display: flex;
+    justify-content: center;
+}
+.input-search input{
+    width: 680px;
+    padding: 20px 0px;
+    font-size: 24px;
+    font-weight: 400;
+    color:#CCCCCC;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
